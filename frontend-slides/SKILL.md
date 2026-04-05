@@ -809,18 +809,11 @@ class TiltEffect {
 
 When the user specifies **"エグゼクティブ向け"、"役員向け"、"経営層向け"、"executive"**, apply these standards from the start without waiting for feedback.
 
-### Font Size Standards
+### Font Scale
 
-| Element | Standard | Executive |
-|---|---|---|
-| h1 Title | clamp(3rem, 6vw, 5rem) | clamp(3.5rem, 7vw, 6rem) |
-| Section heading | clamp(2rem, 3.5vw, 3rem) | clamp(2.6rem, 4vw, 3.8rem) |
-| Quote / catchcopy | 1.2rem | clamp(2rem, 4vw, 3rem) |
-| Bullet body text | 1rem | clamp(1.25rem, 2.2vw, 1.6rem) |
-| Card title | 1rem | 1.4rem |
-| Card body | 0.85rem | 1.05rem |
-| Impact line | 1.2rem | clamp(1.8rem, 3.2vw, 3rem) |
-| Next action items | 0.9rem | 1.25rem |
+**Default to Pattern 1（大胆・インパクト重視）** from Phase 2.5. Do not select a smaller pattern without explicit user instruction. Executives view from a distance — visibility beats information density.
+
+Phase 2.5 is the single source of truth for all font size values.
 
 ### Layout Rules (Always Apply for Japanese)
 
